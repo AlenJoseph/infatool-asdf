@@ -26,6 +26,8 @@ This script installs the [asdf version manager](https://github.com/asdf-vm/asdf)
 Run the following commands in your terminal:
 
 ```bash
+sudo apt install -y dos2unix   # if not installed already
+dos2unix install_asdf_with_devtools.sh
 curl -o install_asdf_with_devtools.sh https://raw.githubusercontent.com/AlenJoseph/infatool-asdf/refs/heads/main/install_asdf_with_devtools.sh
 chmod +x install_asdf_with_devtools.sh
 ./install_asdf_with_devtools.sh
