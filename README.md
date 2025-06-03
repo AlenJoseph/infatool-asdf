@@ -32,4 +32,7 @@ curl -o install_asdf_with_devtools.sh https://raw.githubusercontent.com/AlenJose
 chmod +x install_asdf_with_devtools.sh
 ./install_asdf_with_devtools.sh
 export PATH="$HOME/.local/bin:$PATH"
+echo '. "$HOME/.asdf/asdf.sh"' >> ~/.bashrc
+echo '. "$HOME/.asdf/completions/asdf.bash"' >> ~/.bashrc
 source ~/.bashrc
+
