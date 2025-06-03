@@ -35,4 +35,6 @@ export PATH="$HOME/.local/bin:$PATH"
 echo '. "$HOME/.asdf/asdf.sh"' >> ~/.bashrc
 echo '. "$HOME/.asdf/completions/asdf.bash"' >> ~/.bashrc
 source ~/.bashrc
+# Add shim directory to PATH
+export PATH="$HOME/.asdf/shims:$PATH"
 
